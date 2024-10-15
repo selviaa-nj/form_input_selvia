@@ -7,6 +7,115 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Tentara</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="jumbotron text-center">
+  <h1 class="display-4">Tentara</h1>
+  <p class="lead">Formulir Pendaftaran</p>
+  <img src="img/tentara.jpg" alt="Tentara" class="img-fluid">
+</section>
+
+<!-- Form Section -->
+<section class="container">
+  <form>
+    <div class="form-group">
+      <label for="nama">Nama</label>
+      <input type="text" class="form-control" id="nama" placeholder="Nama">
+    </div>
+    <div class="form-group">
+      <label for="pangkat">Pangkat</label>
+      <input type="text" class="form-control" id="pangkat" placeholder="Pangkat">
+    </div>
+    <div class="form-group">
+      <label for="jabatan">Jabatan</label>
+      <input type="text" class="form-control" id="jabatan" placeholder="Jabatan">
+    </div>
+    <div class="form-group">
+      <label for="alamat">Alamat</label>
+      <input type="text" class="form-control" id="alamat" placeholder="Alamat">
+    </div>
+    <div class="form-group">
+      <label for="no_telepon">No. Telepon</label>
+      <input type="text" class="form-control" id="no_telepon" placeholder="No. Telepon">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label for="tanggal_lahir">Tanggal Lahir</label>
+      <input type="date" class="form-control" id="tanggal_lahir" placeholder="Tanggal Lahir">
+    </div>
+    <div class="form-group">
+      <label for="jenis_kelamin">Jenis Kelamin</label>
+      <select class="form-control" id="jenis_kelamin">
+        <option value="">Pilih</option>
+        <option value="Laki-laki">Laki-laki</option>
+        <option value="Perempuan">Perempuan</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="agama">Agama</label>
+      <select class="form-control" id="agama">
+        <option value="">Pilih</option>
+        <option value="Islam">Islam</option>
+        <option value="Kristen">Kristen</option>
+        <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+        <option value="Lain-lain">Lain-lain</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="pendidikan">Pendidikan</label>
+      <select class="form-control" id="pendidikan">
+        <option value="">Pilih</option>
+        <option value="SD">SD</option>
+        <option value="SMP">SMP</option>
+        <option value="SMA">SMA</option>
+        <option value="Diploma">Diploma</option>
+        <option value="Sarjana">Sarjana</option>
+        <option value="Magister">Magister</option>
+        <option value="Doktor">Doktor</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="pengalaman">Pengalaman</label>
+      <textarea class="form-control" id="pengalaman" placeholder="Pengalaman"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white">
+  <div class="container">
+    <p class="m-0 text-center">Copyright 2023 Tentara</p>
+  </div>
+</footer>
+
+
+
+
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6">
@@ -35,5 +144,7 @@
             </div>
         </div>
     </div>
+
+
 </body>
 </html>
