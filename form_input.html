@@ -16,64 +16,68 @@
                     </div>
                     <div class="card-body">
                         <form>
-                            <div class="form-group">
-                                <label for="nama">Nama</label>
-                                <input type="text" class="form-control" id="nama" placeholder="Masukkan nama">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="nama">Nama</label>
+                                        <input type="text" class="form-control" id="nama" placeholder="Masukkan nama">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="alamat">Alamat</label>
+                                        <input type="text" class="form-control" id="alamat" placeholder="Alamat">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="no_telepon">No. Telepon</label>
+                                        <input type="text" class="form-control" id="no_telepon" placeholder="No. Telepon">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="tanggal_lahir">Tanggal Lahir</label>
+                                        <input type="date" class="form-control" id="tanggal_lahir" placeholder="Tanggal Lahir">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="jenis_kelamin">Jenis Kelamin</label>
+                                        <select class="form-control" id="jenis_kelamin">
+                                            <option value="">Pilih</option>
+                                            <option value="Laki-laki">Laki-laki</option>
+                                            <option value="Perempuan">Perempuan</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="agama">Agama</label>
+                                        <select class="form-control" id="agama">
+                                            <option value="">Pilih</option>
+                                            <option value="Islam">Islam</option>
+                                            <option value="Kristen">Kristen</option>
+                                            <option value="Hindu">Hindu</option>
+                                            <option value="Buddha">Buddha</option>
+                                            <option value="Lain-lain">Lain-lain</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pendidikan">Pendidikan</label>
+                                        <select class="form-control" id="pendidikan">
+                                            <option value="">Pilih</option>
+                                            <option value="SD">SD</option>
+                                            <option value="SMP">SMP</option>
+                                            <option value="SMA">SMA</option>
+                                            <option value="Diploma">Diploma</option>
+                                            <option value="Sarjana">Sarjana</option>
+                                            <option value="Magister">Magister</option>
+                                            <option value="Doktor">Doktor</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
-                            
                             <div class="form-group">
-      <label for="alamat">Alamat</label>
-      <input type="text" class="form-control" id="alamat" placeholder="Alamat">
-    </div>
-    <div class="form-group">
-      <label for="no_telepon">No. Telepon</label>
-      <input type="text" class="form-control" id="no_telepon" placeholder="No. Telepon">
-    </div>
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" class="form-control" id="email" placeholder="Email">
-    </div>
-    <div class="form-group">
-      <label for="tanggal_lahir">Tanggal Lahir</label>
-      <input type="date" class="form-control" id="tanggal_lahir" placeholder="Tanggal Lahir">
-    </div>
-    <div class="form-group">
-      <label for="jenis_kelamin">Jenis Kelamin</label>
-      <select class="form-control" id="jenis_kelamin">
-        <option value="">Pilih</option>
-        <option value="Laki-laki">Laki-laki</option>
-        <option value="Perempuan">Perempuan</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="agama">Agama</label>
-      <select class="form-control" id="agama">
-        <option value="">Pilih</option>
-        <option value="Islam">Islam</option>
-        <option value="Kristen">Kristen</option>
-        <option value="Hindu">Hindu</option>
-            <option value="Buddha">Buddha</option>
-        <option value="Lain-lain">Lain-lain</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="pendidikan">Pendidikan</label>
-      <select class="form-control" id="pendidikan">
-        <option value="">Pilih</option>
-        <option value="SD">SD</option>
-        <option value="SMP">SMP</option>
-        <option value="SMA">SMA</option>
-        <option value="Diploma">Diploma</option>
-        <option value="Sarjana">Sarjana</option>
-        <option value="Magister">Magister</option>
-        <option value="Doktor">Doktor</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="pengalaman">Pengalaman</label>
-      <textarea class="form-control" id="pengalaman" placeholder="Pengalaman"></textarea>
-    </div>
-                           
+                                <label for="pengalaman">Pengalaman</label>
+                                <textarea class="form-control" id="pengalaman" placeholder="Pengalaman"></textarea>
+                            </div>
                             <button type="submit" class="btn btn-success">Kirim</button>
                         </form>
                     </div>
@@ -81,7 +85,5 @@
             </div>
         </div>
     </div>
-
-
 </body>
 </html>
